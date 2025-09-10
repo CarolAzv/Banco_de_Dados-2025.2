@@ -14,3 +14,13 @@ Outros atores
     ex. ferramentas de monitoramento do desempenho do sistema e geração de testes
 
   Responsáveis pela operação e manutenção do ambiente de hardware e software
+
+Categorisa de modelos de dados
+	Modelos de dados conceituais(alto nível)
+		Represenação para os usários especializados ou projetistas (modelo entidade-relacionamento)
+
+	Modelos de dados lógicos (implementação)
+		Nível intermediario de representação (modelo relacionado)
+
+	Modelos de dados físicos (baixo nível)
+		Representação para desenvolvedores de SGBDs (como estar realcionado / os comandos SKL que representão um modelo logico)
