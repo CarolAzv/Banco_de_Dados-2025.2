@@ -7,6 +7,7 @@
   Usuários sofisticados
     implementadores de aplicações conhecimento dos recursos dos SGBDs
 
+
 Outros atores
   Projetistas e Implementadores dos sistemas gerenciadores de banco de dados (SGBDs)
 
@@ -24,6 +25,16 @@ Categorisa de modelos de dados
 
 	Modelos de dados físicos (baixo nível)
 		Representação para desenvolvedores de SGBDs (como estar realcionado / os comandos SKL que representão um modelo logico)
+
+
+alto nível (não procedural) 
+	permite a manipulação de conjunto de registros por ação (set-at-a-time)
+
+baixo nível (procedural)
+	permite a manipulação de um registro por ação (record-at-a-time), utiliza procedimento de linguagens de programação (script)
+
+Os comandos DML podem ser embutidos em uma linguagem de propósito geral (host language) ou utilizada de modo interativo (query language)
+
 
 
 
