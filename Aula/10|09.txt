@@ -24,3 +24,7 @@ Categorisa de modelos de dados
 
 	Modelos de dados físicos (baixo nível)
 		Representação para desenvolvedores de SGBDs (como estar realcionado / os comandos SKL que representão um modelo logico)
+
+
+
+   Esquemas são conjuntos de instâncias que representão elementos reais do banco de dados
