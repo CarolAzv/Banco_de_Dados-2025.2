@@ -38,8 +38,10 @@ Os comandos DML podem ser embutidos em uma linguagem de propósito geral (host l
 
 
 
-   Esquemas são conjuntos de instâncias que representão elementos reais do banco de dados
 
+Esquemas são conjuntos de instâncias que representão elementos reais do banco de dados
+
+Cardalidade limita o maximo e minimo de ligações que um dado pode ter
 
 
 iremos trabalhar com modo interativo não procedural
