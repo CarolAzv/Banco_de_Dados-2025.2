@@ -1,0 +1,16 @@
+Usuários Finais
+  Usuários casuais
+					
+  Usuários parametrizáveis
+    constante consulta e atualização do banco de dados (ex. caixa de banco, reserva de vôos, agências de correios,...)
+ 							
+  Usuários sofisticados
+    implementadores de aplicações conhecimento dos recursos dos SGBDs
+
+Outros atores
+  Projetistas e Implementadores dos sistemas gerenciadores de banco de dados (SGBDs)
+
+  Desenvolvedores de ferramentas de apoio
+    ex. ferramentas de monitoramento do desempenho do sistema e geração de testes
+
+  Responsáveis pela operação e manutenção do ambiente de hardware e software
