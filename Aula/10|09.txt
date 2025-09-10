@@ -1,4 +1,4 @@
-Usuários Finais
+  Usuários Finais
   Usuários casuais
 					
   Usuários parametrizáveis
@@ -28,3 +28,7 @@ Categorisa de modelos de dados
 
 
    Esquemas são conjuntos de instâncias que representão elementos reais do banco de dados
+
+
+
+iremos trabalhar com modo interativo não procedural
