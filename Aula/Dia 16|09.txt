@@ -1,0 +1,7 @@
+Modelagem Entidade-Relacionamento (ER)
+
+  Carneladidade limita o numero mínimo e máximo de ocorrêmcia
+     Seu limite fica no lado oposto ao qual esta presente
+        Departamento -1-- Lotação --N- Pessoa 
+        (Só pode ter 1 pessoa e N departamentos)
+     Sé o limite é maior que 1 ele se torna N
