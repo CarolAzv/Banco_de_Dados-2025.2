@@ -14,3 +14,5 @@ Modelagem Entidade-Relacionamento (ER)
 
     A canalidade de ternarios e adiante ficam ao lado do proprio item
  
+    Atributos são circulares, linhas continuas são obrigatorias e pontilhadas não
+    Se o circulo for duplo ele pode ter varios valores
