@@ -13,3 +13,4 @@ Modelagem Entidade-Relacionamento (ER)
     (O,1) (Minima, Maxima)
 
     A canalidade de ternarios e adiante ficam ao lado do proprio item
+ 
