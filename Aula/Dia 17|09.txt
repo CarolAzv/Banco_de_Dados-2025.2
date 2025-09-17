@@ -1,1 +1,8 @@
+Continuação do do dia 16|09
 
+Atributo identificadores
+  Um atributo único é diferente para cada pessoa
+  Atributo identificador compostos são um conjunto de atributos que são únicos quando juntos
+
+Relacionamento identificador
+  Quando a instancia é identificada baseada no seus relacionamentos
