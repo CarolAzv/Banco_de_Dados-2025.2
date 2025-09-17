@@ -9,3 +9,7 @@ Atributo identificadores
 Relacionamento identificador
   Quando a instancia é identificada baseada no seus relacionamentos
   Nessa situação o relacionamento tem borda dupla
+
+Entidade fraca
+  Necesita de um relacionamento identificador para ser identificada
+  Borda dupla
