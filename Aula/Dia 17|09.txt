@@ -13,3 +13,4 @@ Relacionamento identificador
 Entidade fraca
   Necesita de um relacionamento identificador para ser identificada
   Borda dupla
+  Sempre tem carnalidade (1,1)
