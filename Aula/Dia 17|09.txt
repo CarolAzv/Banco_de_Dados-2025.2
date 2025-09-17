@@ -6,3 +6,4 @@ Atributo identificadores
 
 Relacionamento identificador
   Quando a instancia é identificada baseada no seus relacionamentos
+  Nessa situação o relacionamento tem borda dupla
