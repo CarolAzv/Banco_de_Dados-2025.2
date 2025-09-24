@@ -9,3 +9,5 @@ Herança total
 
 Herança parcial
   sem a obrigatoriedade de pertinência
+
+Entidade e Relacionamento podem ser fundidos em um item
