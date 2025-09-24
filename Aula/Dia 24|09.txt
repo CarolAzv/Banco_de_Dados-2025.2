@@ -1,1 +1,11 @@
 Correção da tarefa adimistrada durante a aula passada
+
+SLIDES HERANÇA E ENTIDADE ASSOCIATIVAS
+  A especialidade de uma entidade genérica
+  Formato de um triangulo
+
+Herança total
+  as ocorrências das entidades genéricas pertencem ao conjunto de ocorrências de uma entidade especializadas
+
+Herança parcial
+  sem a obrigatoriedade de pertinência
