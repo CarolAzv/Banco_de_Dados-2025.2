@@ -1,1 +1,5 @@
 Detalhamento e analize da atividade feita em sala (diagrama do aplicativo médico)
+
+Slide 05 - Construção do Diagrama ER Intermediário
+
+Explicação de herança
