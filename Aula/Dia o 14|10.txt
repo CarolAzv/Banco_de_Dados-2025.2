@@ -1,0 +1,9 @@
+Diagrama Er
+  *Limitado
+  *Dois ou mais diagramas podem ser equivalentes
+  *
+  *
+
+  Criterio de Escolhas de Elementos
+    *entidade tem uma unica tabela que sempre é referida
+    *entidade tem validação
