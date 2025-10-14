@@ -7,3 +7,5 @@ Diagrama Er
   Criterio de Escolhas de Elementos
     *entidade tem uma unica tabela que sempre é referida
     *entidade tem validação
+    *categorias podem ser atributor
+    *se a categoria é importante, herença permite mais delathe por meio de especificação
