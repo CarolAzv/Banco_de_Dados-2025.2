@@ -1,0 +1,2 @@
+em rd plus, no grafico RS
+  *a entidade fraca que recebe a foreing key
