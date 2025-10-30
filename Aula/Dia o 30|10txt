@@ -6,3 +6,5 @@ Normalização
 
 Chave Primaria
     Chave que identifica algo (o bloco (esqueci o nome))
+Chave Primaria Composta
+    Quando se tem duas chaves (não extrangeiras)
