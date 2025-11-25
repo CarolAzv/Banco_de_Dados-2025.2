@@ -13,7 +13,16 @@ CREATE TABLE IF NOT EXISTS dbo.cidade (
   	CONSTRAINT nome_estado_unique UNIQUE (nome, estado)
 );
    
-   
 drop table dbo.cidade;
+
+
+CREATE TABLE IF NOT EXISTS dbo.localizacao(
+	latitude FLOAT NOT NULL,
+  	longetude FLOAT NOT NULL,
+  	id_cidade int NOT NULL,
+  	CONSTRAINT localizacao_pk PRIMARY KEY(latitude, longetude),
+  	CONSTRAINT cidade_fk FOREIGN KEY(id_cidade) REFERENCES dbo.cidade(ID),
+  	CONSTRAINT localizacao_un UNIQUE (id_cidade)
+);
 
 ALTER TABLE dbo.cidade
