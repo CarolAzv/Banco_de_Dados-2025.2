@@ -65,6 +65,11 @@ INSERT INTO dbo.cidade (estado, nome) VALUES ('RN', 'Macaiba');
 INSERT INTO dbo.cidade (nome, estado) VALUES ('Parnamirim', 'CE'), ('Recife', 'PE'), ('Fortaleza', 'CE');
 --INSERT INTO dbo.cidade VALUES ('Parnamirim', 'RN'); --exemplo de erro
 
+--updadedbo.central
+UPDATE dbo.cidade
+	SET nome = 'Recife'
+    WHERE nome = 'Reife'
+
 
 --exebir conteudo da tapela
 SELECT * FROM dbo.localizacao;
