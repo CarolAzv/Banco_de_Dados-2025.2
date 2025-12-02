@@ -1,6 +1,8 @@
 -- criando o esquema dbo
 CREATE SCHEMA dbo;
 
+SELECT OCTET_LENGTH('ifrn-campus-natal-central'::varchar(10));
+
 -- apagando o esquema dbo
 -- DROP SCHEMA dbo;
 
@@ -15,6 +17,8 @@ CREATE TABLE IF NOT EXISTS dbo.cidade (
 
 --- apagando a tabela cidade
 -- DROP TABLE dbo.cidade;
+--- deleda a tabela cidade
+-- DELETE TABLE dbo.cidade;
 
 CREATE TABLE IF NOT EXISTS dbo.localizacao(
 	latitude FLOAT NOT NULL,
@@ -30,7 +34,7 @@ CREATE TABLE IF NOT EXISTS dbo.tempo(
   	tempo_min INT NOT NULL,
   	tempo_max INT NOT NULL,
   	precip_ploviom REAL NOT NULL,
-  	dh_coleta DATE NOT NULL,
+  	dh_coleta TIMESTAMP NOT NULL,
   	id_cidade INT NOT NULL,
   	CONSTRAINT tempo_pk PRIMARY KEY(ID),
   	CONSTRAINT cidade_fk FOREIGN KEY(id_cidade) REFERENCES dbo.cidade(ID),
@@ -51,4 +55,34 @@ CREATE TABLE dbo.tempocentral(
 );
 
 
-SELECT OCTET_LENGTH('ifrn-campus-natal-central'::varchar(10));
+--exebir conteudo da tapela
+SELECT * FROM dbo.cidade;
+
+--inserindo cidade
+INSERT INTO dbo.cidade (nome, estado) VALUES ('NatalRN'); --precisa especivicar os valores (já que o id é gerado automaticamento)
+INSERT INTO dbo.cidade (nome, estado) VALUES ('Parnamirim', 'RN');
+INSERT INTO dbo.cidade (estado, nome) VALUES ('RN', 'Macaiba');
+INSERT INTO dbo.cidade (nome, estado) VALUES ('Parnamirim', 'CE'), ('Recife', 'PE'), ('Fortaleza', 'CE');
+--INSERT INTO dbo.cidade VALUES ('Parnamirim', 'RN'); --exemplo de erro
+
+
+--exebir conteudo da tapela
+SELECT * FROM dbo.localizacao;
+
+--inserindo localizacao
+INSERT INTO dbo.localizacao (latitude, longetude, id_cidade) VALUES (-5.234, 5.234, 1);
+INSERT INTO dbo.localizacao (latitude, longetude, id_cidade) VALUES (1.234, -4.56, 2), (5.89, -1.23, 3), (-4.234, 4.234, 4), ('-4.235', 4.234, 5);
+
+
+--exebir conteudo da tapela
+SELECT * FROM dbo.localizacao;
+
+--inserindo dados mulos devem ser escrevendo null sem aspas ''
+
+--exemplo de delete
+--DELETE FROM dbo.Cliente WHERE email IS NULL;
+
+CREATE TABLE dbo.cliente(
+  cpf VARCHAR(
+  nome VARCHAR(
+  emial VARBINARY(
