@@ -82,6 +82,14 @@ INSERT INTO dbo.localizacao (latitude, longetude, id_cidade) VALUES (1.234, -4.5
 --exebir conteudo da tapela
 SELECT * FROM dbo.localizacao;
 
+
+--exebir apenas conteudo diferente, não mosta conteudo repetidos
+--SELECT DISTINCT .... 
+
+--conta a quantiade de registros
+--SELECT COUNT(*) .... 
+
+
 --inserindo dados mulos devem ser escrevendo null sem aspas ''
 
 --exemplo de delete
