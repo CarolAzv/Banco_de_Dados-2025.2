@@ -6,3 +6,4 @@ control + shift + p
   Postgres
   github CLI
   
+psql -U postgres -d postgres
